@@ -156,3 +156,18 @@ input {
     font-size: 1rem;
     transform: scale(1)
 }
+
+@media (max-width:570px) {
+    .wrapper__point {
+        flex-direction: column
+    }
+
+    .wrapper__point__signature {
+        order: 1
+    }
+
+    .wrapper__point__controls {
+        order: 0;
+        margin: 0 auto
+    }
+}
